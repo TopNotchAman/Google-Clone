@@ -1,0 +1,135 @@
+* {
+   margin: 0;
+   font-family: sans-serif;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+}
+
+/* header */
+.header {
+   display: flex;
+   justify-content: ;
+   justify-content: space-between;
+   padding: 20px 30px;
+   align-items: center;
+}
+
+.header a {
+   text-decoration: none;
+   margin-right: 20px;
+   color: #474747;
+   font-size: 16px;
+}
+
+.header a:hover {
+   text-decoration: underline;
+}
+
+.header_right {
+   display: flex;
+   align-items: center;
+   min-width: 13vw;
+   justify-content: space-between;
+}
+
+
+ .mainBody {
+   flex: 1;
+   display: flex;
+   margin-top: 1%;
+   flex-direction: column;
+ }  
+
+ .mainBody img {
+   object-fit: contain;
+   height: 140px;
+ }
+
+ .search_input {
+   display: flex;
+   align-items: center;
+   border: 1px solid lightgray;
+   height: 50px;
+   padding: 3px 20px;
+   border-radius: 999px;
+   width: 75vw;
+   margin: 0 auto;
+   margin-top: 40px;
+   max-width: 560px;
+ }
+
+ .search_input input {
+   flex: 1;
+   padding: 10px 20px;
+   border: none;
+   outline: none;
+ }
+
+ .search_input .fa-solid fa-magnifying-glass {
+   color: gray;
+ }
+
+ .search_buttons {
+   margin: 30px;
+   display: flex;
+   justify-content: center;
+ }
+
+.search_buttons button {
+   margin: 5px;
+   padding: 10PX 15PX;
+   background-color: #f8f8f8;
+   outline: none;
+   border: none;
+   cursor: pointer;
+   color: #474747;
+}
+
+ .search_input span {
+   color: #474747;
+ }
+
+.offer_board {
+   display: flex;
+   justify-content: center;
+   color: #474747;
+}
+
+.offer_board a {
+   text-decoration: none;
+}
+
+.yourCountry {
+   height: 50px;
+   width: 100%;
+   background-color: #f3f2f2;
+   border: 1px solid #d1cece;
+   display: flex;
+   align-items: center;
+   padding-left: 45px;
+   position: fixed;
+   bottom: 50px;
+   color: #474747;
+}
+
+.options {
+   height: 50px;
+   width: 100%;
+   background-color: #f3f2f2;
+   border: 1px solid #d1cece;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   position: fixed;
+   bottom: 0px;
+   color: #474747;
+}
+
+.infoSpace {
+   height: 50px;
+   width: 720px;
+}
